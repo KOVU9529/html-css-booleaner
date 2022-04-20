@@ -10,14 +10,23 @@ body{
 }
 header{
     background-image: url(pattern.png);
-    background-size: 1100px;
-    background-color: aqua;
+    height: 100px;
+    background-color: rgb(74, 144, 237);
+    background-size: contain;
 }
 .testa{
-    width: 100px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 5px;
+}
+.grey{
+    color: rgb(143, 140, 140);
+}
+.blue{
+    color: rgb(0, 162, 255);
 }
 
-span{
+.yellow{
     background-color: yellow;
 }
 p{
@@ -31,30 +40,38 @@ ul{
 table{
     margin-top: 15px;
 }
+tr{
+    height: 15px;
+}
+.dimension{
+    width: 600px;
+}
 thead{
-    background-color: blue;
+    background-color: rgb(0, 162, 255);;
     color: white;
 }
 .dispari{
-    background-color: aquamarine;
+    background-color: rgb(125, 215, 242);
+    height: 60px;
 }
 .pari{
     background-color: azure;
+    height: 60px;
 }
 h3{
-    color: lightgrey;
+    color: rgb(150, 145, 145);
 }
 .finale{
     font-size: large;
 color: white;
 background-image: url(monitor.jpg);
 width: 300px;
-height: 220px;
+height: 205px;
 }
 .fine{
     font-size: large;
     color: white;
     background-image: url(graph.jpg);
     width: 300px;
-    height: 220px;
+    height: 205px;
 }
