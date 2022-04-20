@@ -45,8 +45,16 @@ h3{
     color: lightgrey;
 }
 .finale{
-    background-image: url(graph.jpg);
-    width: auto;
-    height: auto;
+    font-size: large;
+color: white;
+background-image: url(monitor.jpg);
+width: 300px;
+height: 220px;
+}
+.fine{
+    font-size: large;
     color: white;
+    background-image: url(graph.jpg);
+    width: 300px;
+    height: 220px;
 }
