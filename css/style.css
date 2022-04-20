@@ -12,7 +12,7 @@ header{
     background-image: url(pattern.png);
     height: 100px;
     background-color: rgb(74, 144, 237);
-    background-size: contain;
+    background-size:40%;
 }
 .testa{
     height: 45px;
